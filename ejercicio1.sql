@@ -2,7 +2,7 @@ CREATE TABLE Books (
 bookId INTEGER PRIMARY KEY,
   title TEXT NOT NULL,
   author TEXT NOT NULL,
-  genre TEXT varchar (1),
+  genre TEXT varchar (35),
   published_year INT NOT NULL,
   isbn VARCHAR(13) NOT NULL UNIQUE,
   price DECIMAL(10, 2) CHECK (price >= 0) not NULL,

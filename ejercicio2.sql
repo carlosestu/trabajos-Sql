@@ -2,7 +2,7 @@
 bookId INTEGER PRIMARY KEY,
   title VARCHAR(75) NOT NULL,
   author VARCHAR(75) NOT NULL,
-  genre varchar (1),
+  genre varchar (35),
   published_year INT NOT NULL,
   isbn VARCHAR(13) NOT NULL UNIQUE,
   price DECIMAL(10, 2) CHECK (price >= 0) not NULL,
